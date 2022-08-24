@@ -27,6 +27,6 @@ jobs:
           TO: ${{ secrets.TO }}
           AUTH: ${{ secrets.AUTH }}
         run: |
-          sudo ehco $BDUSS
+          sudo echo $BDUSS
           python main.py
           
