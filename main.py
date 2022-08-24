@@ -215,6 +215,7 @@ def main():
     if ('BDUSS' not in ENV):
         logger.error("未配置BDUSS")
         return
+    print(ENV['BDUSS'])
     b = ENV['BDUSS'].split('#')
     for n, i in enumerate(b):
         logger.info("开始签到第" + str(n) + "个用户" + i)
