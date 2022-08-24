@@ -30,6 +30,5 @@ jobs:
           sudo echo $BDUSS
           sudo echo $BDUSS > 1.txt
           sudo cat 1.txt
-          sudo cat /1.txt
           python main.py
           
